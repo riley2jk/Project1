@@ -1,0 +1,85 @@
+body {
+  overflow: hidden;
+}
+
+.row-container {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #d8d8d8;
+}
+
+.small-col {
+  min-width: 25%;
+}
+
+.big-col {
+  min-width: 50%
+}
+
+.left-col {
+  border-right: 1px solid #d8d8d8;
+}
+
+.right-col {
+  border-left: 1px solid #d8d8d8;
+}
+
+.mid-right-col {
+  border-left: 1px solid #d8d8d8;
+}
+
+.line-col {
+  border-right: 0px;
+}
+
+.main-title {
+  border-top: 0px;
+}
+
+.DiscBarChart {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-area {
+  fill: #e9eff5;
+}
+
+.chart-line {
+  fill: none;
+  stroke: #339ab3;
+  stroke-width: 2px;
+}
+
+.chart-title {
+  min-width: 100%;
+  text-align: center;
+  margin: 5px;
+}
+
+td, th {
+  padding: 1px 4px;
+}
+
+.table-col {
+  overflow: auto;
+  height: 265px;
+}
+
+/* Marks */
+.point:hover {
+  stroke: #333;
+}
+
+.bar {
+  shape-rendering: crispEdges;
+}
+
+.bar:hover {
+  stroke: #777;
+}
+
+.bar.active {
+  stroke: #333;
+}
